@@ -13,5 +13,6 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - x402 paid package download: https://agent-commerce-guard.vercel.app/api/x402-download
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
+- Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
