@@ -8,6 +8,8 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 
 - Live product: https://agent-commerce-guard.vercel.app
 - GitHub Pages launch page: https://fxjim.github.io/agent-commerce-guard/
+- Pages well-known x402: https://fxjim.github.io/agent-commerce-guard/.well-known/x402
+- Pages well-known purchase guide: https://fxjim.github.io/agent-commerce-guard/.well-known/purchase.json
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/base-pay
 - Agent purchase guide: https://agent-commerce-guard.vercel.app/BUY.md
 - x402 paid evaluator: https://agent-commerce-guard.vercel.app/api/x402-evaluate
