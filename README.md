@@ -7,6 +7,7 @@ Current public launch:
 Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack for AI agents before wallet spend, deployments, command risk, token launches, social actions, or credential access.
 
 - Live product: https://agent-commerce-guard.vercel.app
+- GitHub Pages launch page: https://fxjim.github.io/agent-commerce-guard/
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/base-pay
 - Agent purchase guide: https://agent-commerce-guard.vercel.app/BUY.md
 - x402 paid evaluator: https://agent-commerce-guard.vercel.app/api/x402-evaluate
