@@ -22,9 +22,13 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Package metadata: https://agent-commerce-guard.vercel.app/package-metadata.json
 - Service status: https://agent-commerce-guard.vercel.app/status.json
 - Well-known service status: https://agent-commerce-guard.vercel.app/.well-known/status.json
+- License terms: https://agent-commerce-guard.vercel.app/license
+- Well-known license terms: https://agent-commerce-guard.vercel.app/.well-known/license.md
 - Pages package metadata mirror: https://fxjim.github.io/agent-commerce-guard/package-metadata.json
 - Pages service status mirror: https://fxjim.github.io/agent-commerce-guard/status.json
 - Pages well-known service status mirror: https://fxjim.github.io/agent-commerce-guard/.well-known/status.json
+- Pages license mirror: https://fxjim.github.io/agent-commerce-guard/license/
+- Pages well-known license mirror: https://fxjim.github.io/agent-commerce-guard/.well-known/license.md
 - LLM-readable summary: https://agent-commerce-guard.vercel.app/llms.txt
 - Well-known LLM summary: https://agent-commerce-guard.vercel.app/.well-known/llms.txt
 - Agents manifest: https://agent-commerce-guard.vercel.app/agents.json
@@ -38,7 +42,8 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_FsFrKXMReNPTUxos31ermXVVBYhx`
-- Current paid package shasum: `8d5b313e3c18fd0b3d9d68d96009b662b6e2f923`
+- Current production deployment: `dpl_JE4FsdYHQSLx7EuTjQfsbC2R9f9u`
+- Current paid package shasum: `76ae820aa126e9f7a8243a7b721cabe91467da57`
+- Current paid package size: `121151` bytes
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
