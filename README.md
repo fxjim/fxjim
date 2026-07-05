@@ -17,6 +17,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
+- Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx}
 - Well-known payment request: https://agent-commerce-guard.vercel.app/.well-known/pay.json
 - Agent purchase guide: https://agent-commerce-guard.vercel.app/buy
 - Package metadata: https://agent-commerce-guard.vercel.app/package-metadata.json
@@ -42,8 +43,9 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_6mfn59XAEafHVfehrNosbrNjE2VN`
-- Current paid package shasum: `bbe8a3b9b0511e492a3cfc5c74e4b560983628d4`
-- Current paid package size: `122432` bytes
+- Current production deployment: `dpl_3ci98HsM5JzA9fcQRtv31SudVdCo`
+- Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
+- Current paid package size: `122737` bytes
+- Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
