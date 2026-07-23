@@ -22,7 +22,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - GitHub Pages buyer-skill index: https://fxjim.github.io/agent-commerce-guard/.well-known/skills/index.json
 - Skills directory: https://skills.sh/fxjim/agent-commerce-guard/buy-agent-commerce-guard
 - Free GitHub Action: `uses: fxjim/agent-commerce-guard@v1`
-- GitHub Action release: https://github.com/fxjim/agent-commerce-guard/releases/tag/v1.0.1
+- Latest GitHub Action release: https://github.com/fxjim/agent-commerce-guard/releases/tag/v1.0.1
 - GitHub Action purchase outputs: `checkout-url` for the private local package and `x402-evaluate-url` for the paid API
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
@@ -55,8 +55,8 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
 - Current production deployment: `dpl_FUQJgzEah8HjEyY2FJwVuE83wbzX`
-- Current public launch commit: `f554834849a3223a24aba117386bd53893841a4b`
-- Current GitHub Pages run: `30053297693`
+- Current public launch commit: `13a7d810df14776f65432810d4df44f261f02dfd`
+- Current GitHub Pages run: `30054105670`
 - GitHub Action smoke run: `30053298203`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
