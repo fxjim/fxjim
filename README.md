@@ -6,6 +6,8 @@ Current public launch:
 
 Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack for AI agents before wallet spend, deployments, command risk, token launches, social actions, or credential access.
 
+[![Agent Skills installs](https://www.skills.sh/b/fxjim/agent-commerce-guard)](https://www.skills.sh/fxjim/agent-commerce-guard/buy-agent-commerce-guard)
+
 - Live product: https://agent-commerce-guard.vercel.app
 - Agent-readable offer: https://agent-commerce-guard.vercel.app/offer.json
 - GitHub Pages launch page: https://fxjim.github.io/agent-commerce-guard/
@@ -14,7 +16,8 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Pages well-known offer alias: https://fxjim.github.io/agent-commerce-guard/.well-known/offer.json
 - Pages well-known x402: https://fxjim.github.io/agent-commerce-guard/.well-known/x402
 - Pages well-known purchase guide: https://fxjim.github.io/agent-commerce-guard/.well-known/purchase.json
-- Install buyer skill: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
+- Install buyer skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill buy-agent-commerce-guard`
+- Canonical-domain install: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
 - Canonical buyer-skill index: https://agent-commerce-guard.vercel.app/.well-known/skills/index.json
 - GitHub Pages buyer-skill index: https://fxjim.github.io/agent-commerce-guard/.well-known/skills/index.json
 - Skills directory: https://skills.sh/fxjim/agent-commerce-guard/buy-agent-commerce-guard
@@ -48,7 +51,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
 - Current production deployment: `dpl_C5niUK7tS7FLnhczV45NL2pjHZE6`
-- Current public launch commit: `5beeedce3611c5a803810ec86c048535c0aaf1bb`
+- Current public launch commit: `85c6e42cc40b2014ad8605c826b2f62af085a4b4`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
