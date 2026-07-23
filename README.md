@@ -47,10 +47,11 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_H4E8d9nwm1ZfMS3VRTYPg6WTPJa8`
+- Current production deployment: `dpl_C5niUK7tS7FLnhczV45NL2pjHZE6`
 - Current public launch commit: `5beeedce3611c5a803810ec86c048535c0aaf1bb`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
+- Mobile checkout now puts the 1 USDC wallet actions in the first viewport while keeping exact payment details available for review.
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
