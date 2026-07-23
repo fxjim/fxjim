@@ -14,6 +14,10 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Pages well-known offer alias: https://fxjim.github.io/agent-commerce-guard/.well-known/offer.json
 - Pages well-known x402: https://fxjim.github.io/agent-commerce-guard/.well-known/x402
 - Pages well-known purchase guide: https://fxjim.github.io/agent-commerce-guard/.well-known/purchase.json
+- Install buyer skill: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
+- Canonical buyer-skill index: https://agent-commerce-guard.vercel.app/.well-known/skills/index.json
+- GitHub Pages buyer-skill index: https://fxjim.github.io/agent-commerce-guard/.well-known/skills/index.json
+- Skills directory: https://skills.sh/fxjim/agent-commerce-guard/buy-agent-commerce-guard
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
@@ -43,7 +47,8 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_3ci98HsM5JzA9fcQRtv31SudVdCo`
+- Current production deployment: `dpl_H4E8d9nwm1ZfMS3VRTYPg6WTPJa8`
+- Current public launch commit: `5beeedce3611c5a803810ec86c048535c0aaf1bb`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
