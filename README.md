@@ -23,6 +23,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Skills directory: https://skills.sh/fxjim/agent-commerce-guard/buy-agent-commerce-guard
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
+- One-tap Base Account checkout: the official `/pay` page leads with a user-confirmed 1 USDC payment and verifies the returned transaction server-side before unlock.
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
 - Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx}
 - Well-known payment request: https://agent-commerce-guard.vercel.app/.well-known/pay.json
@@ -50,12 +51,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_ARoLke4E69ycVonwUyvmvVaaYUTg`
-- Current public launch commit: `19150e629af29197762eff0c7eede4e1d5f786a1`
+- Current production deployment: `dpl_FUQJgzEah8HjEyY2FJwVuE83wbzX`
+- Current public launch commit: `26294cdfc3a5c9eaeaa0bc209b63a38d01c98429`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
 - Official x402scan discovery classifies both 1 USDC routes as paid and all five public utility routes as unprotected with zero warnings.
-- Mobile checkout now puts the 1 USDC wallet actions in the first viewport while keeping exact payment details available for review.
+- The checkout leads with the official Base Account payment control, keeps browser-wallet and payment-URI fallbacks, and requires server-side Base USDC verification before unlock.
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
