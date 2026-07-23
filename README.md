@@ -50,12 +50,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_Fah8AZbnAijA534mkmifWG34HTuD`
-- Current public launch commit: `1f39bc79dbc37814370292d3d171c7bfd849bcf6`
+- Current production deployment: `dpl_ARoLke4E69ycVonwUyvmvVaaYUTg`
+- Current public launch commit: `19150e629af29197762eff0c7eede4e1d5f786a1`
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
-- OpenAPI discovery classifies both 1 USDC x402 routes as paid and all five public utility routes as unprotected.
+- Official x402scan discovery classifies both 1 USDC routes as paid and all five public utility routes as unprotected with zero warnings.
 - Mobile checkout now puts the 1 USDC wallet actions in the first viewport while keeping exact payment details available for review.
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
