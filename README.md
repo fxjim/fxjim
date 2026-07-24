@@ -20,10 +20,11 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Install GitHub Copilot plugin: `copilot plugin install fxjim/agent-commerce-guard:plugins/agent-commerce-guard`
 - Policy-only review API: https://agent-commerce-guard.vercel.app/api/policy-review
 - Policy-only remote MCP server: https://agent-commerce-guard.vercel.app/api/mcp
+- MCP offer resource: https://agent-commerce-guard.vercel.app/offer.json
 - Official MCP Registry listing: https://registry.modelcontextprotocol.io/?search=agent-commerce-guard
 - MCP Registry server name: `io.github.fxjim/agent-commerce-guard`
-- Immutable MCP server release: `mcp-server-v1.0.0` at `495ba925c6261d9ac15cf256c3b7175365b8fded`
-- MCP Registry publish run: `30058617255`
+- Immutable MCP server release: `mcp-server-v1.1.1` at `ebbe8a50f76494653de3b0c39d68f8f0724303ad`
+- MCP Registry publish run: `30059433066`
 - Awesome Copilot external-plugin review: https://github.com/github/awesome-copilot/issues/2413
 - Install buyer skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill buy-agent-commerce-guard`
 - Canonical-domain install: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
@@ -64,12 +65,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_DFfTm5wjt1yZHu93sD6F3BYUVX7i`
-- Current public launch commit: `ffe5f2bda8a22ad2368222bda409e9a3af1b9cb9`
-- Current GitHub Pages run: `30058849898`
+- Current production deployment: `dpl_5yaeqhNpnZdwxjaLU5W8yTxjZEfS`
+- Current public launch commit: `ebbe8a50f76494653de3b0c39d68f8f0724303ad`
+- Current GitHub Pages run: `30059431495`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
-- Current product validation: `55/55` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool, active official Registry listing, and live buyer preflight with both public skills
+- Current product validation: `56/56` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, and live buyer preflight with both public skills
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
