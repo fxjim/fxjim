@@ -17,6 +17,9 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Pages well-known x402: https://fxjim.github.io/agent-commerce-guard/.well-known/x402
 - Pages well-known purchase guide: https://fxjim.github.io/agent-commerce-guard/.well-known/purchase.json
 - Install free evaluator skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill try-agent-commerce-guard`
+- Install GitHub Copilot plugin: `copilot plugin install fxjim/agent-commerce-guard:plugins/agent-commerce-guard`
+- Policy-only review API: https://agent-commerce-guard.vercel.app/api/policy-review
+- Awesome Copilot external-plugin review: https://github.com/github/awesome-copilot/issues/2413
 - Install buyer skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill buy-agent-commerce-guard`
 - Canonical-domain install: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
 - Canonical buyer-skill index: https://agent-commerce-guard.vercel.app/.well-known/skills/index.json
@@ -56,11 +59,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_5AufJ7y3VTwurB2QSdHkZ3HXCSXY`
-- Current public launch commit: `685b04e93d12fe742fd6c4f5490f6d0bed6d0877`
-- Current GitHub Pages run: `30055626392`
+- Current production deployment: `dpl_49Jfuz2r9wKAmBmY8raz1FDE6T2C`
+- Current public launch commit: `f2d73574afc71aefd566c4c54b0d15ef6492dde1`
+- Current GitHub Pages run: `30057111193`
+- Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
-- Current product validation: `48/48` tests, clean public build, zero npm vulnerabilities, and live buyer preflight with both public skills
+- Current product validation: `50/50` tests, clean public build, zero npm vulnerabilities, live policy-only review API, and live buyer preflight with both public skills
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
