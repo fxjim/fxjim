@@ -53,6 +53,9 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - License terms: https://agent-commerce-guard.vercel.app/license
 - Well-known license terms: https://agent-commerce-guard.vercel.app/.well-known/license.md
 - Pages package metadata mirror: https://fxjim.github.io/agent-commerce-guard/package-metadata.json
+- Public sample CLI report: https://agent-commerce-guard.vercel.app/sample-report
+- Machine-readable sample report: https://agent-commerce-guard.vercel.app/sample-report.json
+- GitHub Pages package preview: https://fxjim.github.io/agent-commerce-guard/sample/
 - Pages service status mirror: https://fxjim.github.io/agent-commerce-guard/status.json
 - Pages well-known service status mirror: https://fxjim.github.io/agent-commerce-guard/.well-known/status.json
 - Pages license mirror: https://fxjim.github.io/agent-commerce-guard/license/
@@ -70,12 +73,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_4KRj9J45wkeF6d8j7acQn2uw85JD`
-- Current public launch commit: `0c3f5ea0d3e1c063cda022b1bfa7e0113ed89c3f`
-- Current GitHub Pages run: `30060608235`
+- Current production deployment: `dpl_5NGPaGLkQU8V4rr4S25kVicmEYCD`
+- Current public launch commit: `4a40e76a55b7be66da0198e8977eb7a2576bf194`
+- Current GitHub Pages run: `30061589933`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
-- Current product validation: `56/56` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, and live buyer preflight with both public skills
+- Current product validation: `59/59` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live buyer preflight with both public skills, and tarball-backed proof for all 13 advertised package files
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
