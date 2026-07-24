@@ -42,7 +42,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - GitHub Action purchase outputs: `checkout-url` for the private local package and `x402-evaluate-url` for the paid API
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
-- One-tap Base Account checkout: the official `/pay` page leads with a user-confirmed 1 USDC payment and verifies the returned transaction server-side before unlock.
+- One-tap Base Account checkout: the official `/pay` page links to the full sample report and support before a user-confirmed 1 USDC payment, then verifies the returned transaction server-side before unlock.
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
 - Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx}
 - Well-known payment request: https://agent-commerce-guard.vercel.app/.well-known/pay.json
@@ -73,12 +73,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_5NGPaGLkQU8V4rr4S25kVicmEYCD`
-- Current public launch commit: `4a40e76a55b7be66da0198e8977eb7a2576bf194`
-- Current GitHub Pages run: `30061589933`
+- Current production deployment: `dpl_73L7UHXmnDWHCTBEgvCXZ8dS6HBX`
+- Current public launch commit: `88614dadd78628bfac491b8b69acaa7f38df83b0`
+- Current GitHub Pages run: `30063163592`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
-- Current product validation: `59/59` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live buyer preflight with both public skills, and tarball-backed proof for all 13 advertised package files
+- Current product validation: `60/60` tests, desktop and mobile checkout checks, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live buyer preflight with both public skills, and tarball-backed proof for all 13 advertised package files
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
