@@ -42,7 +42,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - GitHub Action purchase outputs: `checkout-url` for the private local package and `x402-evaluate-url` for the paid API
 - Public Gist buyer brief: https://gist.github.com/fxjim/869cada8014dc52f520cccbce655f0eb
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
-- One-tap Base Account checkout: the official `/pay` page links to the full sample report and support before a user-confirmed 1 USDC payment, then verifies the returned transaction server-side before unlock.
+- One-tap Base Account checkout: the official `/pay` page links to the full sample report, Base MCP purchase recipe, and support before a user-confirmed 1 USDC payment, then verifies the returned transaction server-side before unlock.
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
 - Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx}
 - Well-known payment request: https://agent-commerce-guard.vercel.app/.well-known/pay.json
@@ -73,9 +73,9 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_73L7UHXmnDWHCTBEgvCXZ8dS6HBX`
-- Current public launch commit: `88614dadd78628bfac491b8b69acaa7f38df83b0`
-- Current GitHub Pages run: `30063163592`
+- Current production deployment: `dpl_EZtLzusCgrpHGuMzEMdRryMfHDGP`
+- Current public launch commit: `803e6e242e57180f1542acfab5cf2fb0203ad225`
+- Current GitHub Pages run: `30063569090`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
 - Current product validation: `60/60` tests, desktop and mobile checkout checks, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live buyer preflight with both public skills, and tarball-backed proof for all 13 advertised package files
