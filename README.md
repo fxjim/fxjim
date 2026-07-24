@@ -20,10 +20,15 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Install GitHub Copilot plugin: `copilot plugin install fxjim/agent-commerce-guard:plugins/agent-commerce-guard`
 - Policy-only review API: https://agent-commerce-guard.vercel.app/api/policy-review
 - Policy-only remote MCP server: https://agent-commerce-guard.vercel.app/api/mcp
+- MCP setup guide: https://agent-commerce-guard.vercel.app/mcp
+- Pages MCP setup mirror: https://fxjim.github.io/agent-commerce-guard/mcp/
+- Connect from Codex: `codex mcp add agent-commerce-guard --url https://agent-commerce-guard.vercel.app/api/mcp`
+- Connect from Claude Code: `claude mcp add --transport http agent-commerce-guard https://agent-commerce-guard.vercel.app/api/mcp`
 - MCP offer resource: https://agent-commerce-guard.vercel.app/offer.json
 - Official MCP Registry listing: https://registry.modelcontextprotocol.io/?search=agent-commerce-guard
 - MCP Registry server name: `io.github.fxjim/agent-commerce-guard`
 - Immutable MCP server release: `mcp-server-v1.1.1` at `ebbe8a50f76494653de3b0c39d68f8f0724303ad`
+- MCP release notes: https://github.com/fxjim/agent-commerce-guard/releases/tag/mcp-server-v1.1.1
 - MCP Registry publish run: `30059433066`
 - Awesome Copilot external-plugin review: https://github.com/github/awesome-copilot/issues/2413
 - Install buyer skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill buy-agent-commerce-guard`
@@ -65,9 +70,9 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_5yaeqhNpnZdwxjaLU5W8yTxjZEfS`
-- Current public launch commit: `ebbe8a50f76494653de3b0c39d68f8f0724303ad`
-- Current GitHub Pages run: `30059431495`
+- Current production deployment: `dpl_4KRj9J45wkeF6d8j7acQn2uw85JD`
+- Current public launch commit: `0c3f5ea0d3e1c063cda022b1bfa7e0113ed89c3f`
+- Current GitHub Pages run: `30060608235`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30053298203`
 - Current product validation: `56/56` tests, clean public build, zero npm vulnerabilities, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, and live buyer preflight with both public skills
