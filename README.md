@@ -45,7 +45,7 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Buy the Base launch pass: https://agent-commerce-guard.vercel.app/pay
 - One-tap Base Account checkout: the official `/pay` page links to the full sample report, Base MCP purchase recipe, and support before a user-confirmed 1 USDC payment, automatically waits for a pending receipt, preserves the returned transaction hash across refreshes, then verifies it server-side before unlock.
 - Verify a Base payment: https://agent-commerce-guard.vercel.app/verify?tx={tx}
-- Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx}
+- Success unlock page: https://agent-commerce-guard.vercel.app/success?tx={tx} retries pending receipts, resumes after refresh, and focuses the verified package download when ready.
 - Well-known payment request: https://agent-commerce-guard.vercel.app/.well-known/pay.json
 - Agent purchase guide: https://agent-commerce-guard.vercel.app/buy
 - Package metadata: https://agent-commerce-guard.vercel.app/package-metadata.json
@@ -74,16 +74,16 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_5wxiLLzm7hY5rLebrrqjhPcHEQHZ`
-- Current public launch commit: `d740144eee94df901de3503ba96ad278c6929e83`
-- Current GitHub Pages run: `30141141652`
+- Current production deployment: `dpl_GFV8iM8JSLbiHF5aC8icPTtNVEoS`
+- Current public launch commit: `fc5082fc1d697d438b096d79468a35cdb7082241`
+- Current GitHub Pages run: `30141503826`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30139660040`
-- Current product validation: `63/63` tests, functional pending-receipt polling, refresh recovery, invalid-hash rejection, and confirmed-non-payment browser checks, desktop and mobile no-overflow checks, clean public build, zero npm vulnerabilities, exact Action discovery readback across Vercel and Pages, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live six-check buyer preflight, and tarball-backed proof for all 13 advertised package files
+- Current product validation: `63/63` tests, functional checkout and success-page pending-receipt polling, refresh recovery, invalid-hash rejection, focused post-verification download, and confirmed-non-payment browser checks, desktop and mobile no-overflow checks, clean public build, zero npm vulnerabilities, exact Action discovery readback across Vercel and Pages, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live six-check buyer preflight, and tarball-backed proof for all 13 advertised package files
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
 - Official x402scan discovery classifies both 1 USDC routes as paid and all five public utility routes as unprotected with zero warnings.
-- The checkout leads with the official Base Account payment control, keeps browser-wallet and payment-URI fallbacks, automatically retries pending receipts, recovers valid transaction hashes after refresh, and requires server-side Base USDC verification before unlock.
+- The checkout leads with the official Base Account payment control and keeps browser-wallet and payment-URI fallbacks. Both browser unlock pages automatically retry pending receipts, recover valid transaction hashes after refresh, and require server-side Base USDC verification before exposing the download.
 
 The first launch pass is priced at 1 USDC on Base and unlocks the packaged CLI, templates, examples, and installable guardrail skill.
