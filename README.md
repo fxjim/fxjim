@@ -25,11 +25,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Connect from Codex: `codex mcp add agent-commerce-guard --url https://agent-commerce-guard.vercel.app/api/mcp`
 - Connect from Claude Code: `claude mcp add --transport http agent-commerce-guard https://agent-commerce-guard.vercel.app/api/mcp`
 - MCP offer resource: https://agent-commerce-guard.vercel.app/offer.json
+- MCP initialization guidance: inspect the public offer resource, require explicit user approval before payment, and verify the Base USDC transaction after payment
 - Official MCP Registry listing: https://registry.modelcontextprotocol.io/?search=agent-commerce-guard
 - MCP Registry server name: `io.github.fxjim/agent-commerce-guard`
-- Immutable MCP server release: `mcp-server-v1.1.1` at `ebbe8a50f76494653de3b0c39d68f8f0724303ad`
-- MCP release notes: https://github.com/fxjim/agent-commerce-guard/releases/tag/mcp-server-v1.1.1
-- MCP Registry publish run: `30059433066`
+- Immutable MCP server release: `mcp-server-v1.1.2` at `d63e4429109963c285b7c5664c0bf732a5eba468`
+- MCP release notes: https://github.com/fxjim/agent-commerce-guard/releases/tag/mcp-server-v1.1.2
+- MCP Registry publish run: `30142103292`
 - Awesome Copilot external-plugin review: https://github.com/github/awesome-copilot/issues/2413
 - Install buyer skill: `npx skills add https://github.com/fxjim/agent-commerce-guard --skill buy-agent-commerce-guard`
 - Canonical-domain install: `npx skills add https://agent-commerce-guard.vercel.app --skill buy-agent-commerce-guard`
@@ -74,12 +75,12 @@ Agent Commerce Guard is an x402-paid workflow validator and approval-gate pack f
 - Public repo and release notes: https://github.com/fxjim/agent-commerce-guard
 - Launch/support thread: https://github.com/fxjim/agent-commerce-guard/issues/1
 - Launch discussion: https://github.com/fxjim/agent-commerce-guard/discussions/2
-- Current production deployment: `dpl_GFV8iM8JSLbiHF5aC8icPTtNVEoS`
-- Current public launch commit: `fc5082fc1d697d438b096d79468a35cdb7082241`
-- Current GitHub Pages run: `30141503826`
+- Current production deployment: `dpl_HGrmKwsoozaskbdxnbh2ha4EaWbe`
+- Current public launch commit: `d63e4429109963c285b7c5664c0bf732a5eba468`
+- Current GitHub Pages run: `30142077346`
 - Awesome Copilot intake run: `30056882220` (automated quality gates passed; ready for review)
 - GitHub Action smoke run: `30139660040`
-- Current product validation: `63/63` tests, functional checkout and success-page pending-receipt polling, refresh recovery, invalid-hash rejection, focused post-verification download, and confirmed-non-payment browser checks, desktop and mobile no-overflow checks, clean public build, zero npm vulnerabilities, exact Action discovery readback across Vercel and Pages, live policy-only review API, live remote MCP tool and offer resource, active latest Registry version `1.1.1`, live six-check buyer preflight, and tarball-backed proof for all 13 advertised package files
+- Current product validation: `63/63` tests, functional checkout and success-page pending-receipt polling, refresh recovery, invalid-hash rejection, focused post-verification download, and confirmed-non-payment browser checks, desktop and mobile no-overflow checks, clean public build, zero npm vulnerabilities, exact Action discovery readback across Vercel and Pages, live policy-only review API, live remote MCP initialization guidance plus one tool and one offer resource, active latest Registry version `1.1.2`, live six-check buyer preflight, and tarball-backed proof for all 13 advertised package files
 - Current paid package shasum: `c67fb09bd83da591c58ae5fae002a6a59557fc97`
 - Current paid package size: `122737` bytes
 - Payment metadata now advertises `/success?tx={tx}` alongside `/verify?tx={tx}` for post-payment unlock.
